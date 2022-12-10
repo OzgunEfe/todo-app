@@ -1,0 +1,58 @@
+:root{
+    --highlight: rgb(0, 199, 30);
+}
+
+body{
+    font-family: sans-serif;
+    text-align: center;
+    padding: 15px 20%;
+}
+
+h2{
+    color: #444;
+}
+
+input{
+    margin-top: 20px;
+    margin-bottom: 35px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    outline-color: var(--highlight);
+    width: 80%;
+}
+
+ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+ul li{
+    background: rgb(225, 225, 225);
+    padding: 5px;
+    display: flex;
+    border-radius: 4px;
+    margin-bottom: 5px;
+}
+
+ul li span{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding-left: 20px;
+}
+
+ul li button{
+    padding: 10px 10px;
+    border-radius: 4px;
+    border: none;
+    background-color: var(--highlight);
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+ul li button:hover{
+    background-color: rgb(2, 173, 28);
+}
